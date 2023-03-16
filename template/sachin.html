@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>sachin webpages</h1>
+    <h1><a href="{% url 'something:dhoni' %}">go to dhoni webpage</a></h1>
+    <h1><a href="{% url 'something:devilers' %}"> go to devilers webpage</a></h1>
+</body>
+</html>
+<style>
+    *
+    {
+        margin: 0px;
+        background: linear-gradient(60deg,rgb(255, 0, 0),rgb(32, 159, 32),rgb(187, 0, 255));
+    }
+    h1
+    {
+        color: rgb(0, 42, 255);
+        background:linear-gradient(to right,rgb(246, 246, 246),rgb(241, 142, 142));
+        margin-top: 100px;
+        text-align: center;
+        padding: 20px;
+        font-size: 50px;
+    }
+    a{
+        color: rgb(247, 247, 249);
+        font-size: 50px;
+        padding: 10px;
+        text-decoration:none;
+        background: rgb(0, 0, 0);
+        border-radius:5px ;
+    }
+    a:hover
+    {
+        background: rgb(251, 248, 248);
+        color:rgb(36, 255, 7);
+        border-radius:5px ;
+    }
+</style>
